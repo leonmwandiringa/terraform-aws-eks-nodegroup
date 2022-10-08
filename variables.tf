@@ -5,6 +5,7 @@ variable "cluster_name" {
 
 variable "tags" {
   type = object({
+    Name = string
     Author      = string
     Environment = string
     Provisioner = string
